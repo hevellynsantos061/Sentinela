@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',Tahoma,sans-serif;
+}
+
+body{
+    background:#edf3f8;
+    color:#333;
+}
+
+.topo{
+    background:linear-gradient(90deg,#0B5ED7,#0A8BD6);
+    color:white;
+    padding:18px 40px;
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo h1{
+    font-size:30px;
+}
+
+.logo p{
+    font-size:14px;
+    opacity:.9;
+}
+
+.icone{
+    font-size:45px;
+}
+
+.container{
+    width:90%;
+    max-width:950px;
+    margin:35px auto;
+    background:white;
+    border-radius:18px;
+    padding:30px;
+    box-shadow:0 12px 35px rgba(0,0,0,.12);
+}
+
+h2{
+    color:#0B5ED7;
+    margin-bottom:20px;
+}
+
+h3{
+    color:#0B5ED7;
+    margin-bottom:10px;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    margin-top:12px;
+    padding:14px;
+    border-radius:10px;
+    border:1px solid #d9d9d9;
+    transition:.3s;
+    font-size:15px;
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+    outline:none;
+    border-color:#0B5ED7;
+    box-shadow:0 0 10px rgba(11,94,215,.2);
+}
+
+textarea{
+    resize:none;
+    min-height:110px;
+}
+
+button{
+    width:100%;
+    margin-top:20px;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    color:white;
+    font-size:17px;
+    font-weight:bold;
+    background:linear-gradient(90deg,#0B5ED7,#0A8BD6);
+    transition:.3s;
+}
+
+button:hover{
+    transform:translateY(-2px);
+    box-shadow:0 8px 18px rgba(0,0,0,.2);
+}
+
+.card{
+    background:#fff;
+    margin-top:18px;
+    border-left:7px solid #0B5ED7;
+    border-radius:12px;
+    padding:18px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-4px);
+}
+
+.verde{
+    display:inline-block;
+    background:#2ecc71;
+    color:white;
+    padding:7px 15px;
+    border-radius:20px;
+    font-weight:bold;
+}
+
+.amarelo{
+    display:inline-block;
+    background:#f1c40f;
+    color:white;
+    padding:7px 15px;
+    border-radius:20px;
+    font-weight:bold;
+}
+
+.vermelho{
+    display:inline-block;
+    background:#e74c3c;
+    color:white;
+    padding:7px 15px;
+    border-radius:20px;
+    font-weight:bold;
+}
+
+footer{
+    text-align:center;
+    margin:40px 0;
+    color:#777;
+}
+
+::-webkit-scrollbar{
+    width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#0B5ED7;
+    border-radius:20px;
+}
