@@ -149,4 +149,5 @@ app.get("/medicacoes", (req, res) => {
 const PORT = env.PORT || 3000;
 app.listen(PORT, () = {console.log(`Porta $(PORT)`);
    });
+});
 
