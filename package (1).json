@@ -1,9 +1,13 @@
 {
   "name": "sentinela",
   "version": "1.0.0",
+  "description": "Sistema Sentinela",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "dependencies": {
     "cors": "^2.8.5",
